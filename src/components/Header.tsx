@@ -16,10 +16,10 @@ const Header: React.FC = () => {
   ];
 
   return (
-    <header className="w-full fixed top-0 z-50 bg-[#272627] shadow-sm border-b-[2px] border-primary">
+    <header className="w-full fixed top-0 z-50 bg-[#D52226] shadow-sm border-b-[2px] border-[#272627]">
       <div className="h-24 flex items-center justify-between px-4 sm:px-6 md:px-8 lg:px-24 xl:px-28 2xl:px-48">
         <Link to="/" className="">
-          <img className="" alt="logo" src={clientConfig.logo}/>
+          <img className="h-48" alt="logo" src={clientConfig.logo}/>
         </Link>
         {/* Desktop nav */}
         <nav className="hidden md:flex space-x-4">
@@ -30,7 +30,7 @@ const Header: React.FC = () => {
               className="tab"
               onClick={() => setSelectedLocation(key)}
             >
-              <p className={`text-md font-medium font-LemonMilk ${selectedLocation === key ? "text-primary" : "text-base-100"}`}>
+              <p className={`text-md font-medium font-LemonMilk ${selectedLocation === key ? "text-white" : "text-base-300"}`}>
                 {name}
               </p>
             </Link>

@@ -59,9 +59,9 @@ function App() {
           </p>
           <button
             onClick={scrollToContact}
-            className="btn btn-lg bg-primary border-primary text-lg"
+            className="btn btn-lg text-white bg-primary border-primary text-lg"
           >
-            Give Us A Ca
+            Give Us A Call
           </button>
         </div>
       </section>
@@ -141,7 +141,7 @@ function App() {
           {/* Left: Info block (appears on top in mobile) */}
           <div className="w-full lg:w-1/2 flex flex-col gap-6">
             <div>
-              <h3 className="text-xl font-bold">AMR Auto Repair</h3>
+              <h3 className="text-xl font-bold">Air View Service</h3>
               <div className="flex items-center mt-2">
                 <MapPin size={24} color={clientConfig.colors.logoColor} />
                 <a href={mapLink} className="ml-2 underline">
@@ -166,12 +166,12 @@ function App() {
 
             <div className="w-56">
               <h4 className="text-xl font-bold">Hours of Operation</h4>
-              <span className="flex justify-between mt-3">Monday:<span>8 AM - 6 PM</span></span>
-              <span className="flex justify-between ">Tuesday:<span>8 AM - 6 PM</span></span>
-              <span className="flex justify-between ">Wednesday:<span>8 AM - 6 PM</span></span>
-              <span className="flex justify-between ">Thursday:<span>8 AM - 6 PM</span></span>
-              <span className="flex justify-between ">Friday:<span>8 AM - 6 PM</span></span>
-              <span className="flex justify-between ">Saturday:<span>9 AM - 4 PM</span></span>
+              <span className="flex justify-between mt-3">Monday:<span>8 AM - 7 PM</span></span>
+              <span className="flex justify-between ">Tuesday:<span>8 AM - 7 PM</span></span>
+              <span className="flex justify-between ">Wednesday:<span>8 AM - 7 PM</span></span>
+              <span className="flex justify-between ">Thursday:<span>8 AM - 7 PM</span></span>
+              <span className="flex justify-between ">Friday:<span>8 AM - 7 PM</span></span>
+              <span className="flex justify-between ">Saturday:<span>Closed</span></span>
               <span className="flex justify-between ">Sunday:<span>Closed</span></span>
             </div>
           </div>
